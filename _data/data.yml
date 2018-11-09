@@ -43,132 +43,158 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
 
-      Second paragraph if required.
+      Before working in reasearch and development I was .
 
 education:
     - degree: PhD in Biology
       university: University of Münster
       time: 2001 - 2007
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        The bacterium *Ralstonia eutropha* is the best studied ‘Knallgas’ bacterium 
+        and producer of poly(3-hydroxybutyric acid), commonly abbreviated as PHB. 
+        This polyester provides the basis for renewable resource-based biodegradable 
+        plastic materials and has attracted much biotechnological interest. 
+        During my PhD, the genome sequence of the bacterium was sequenced (using 
+        Sanger sequencing). A large portion of the work included primer-walking to 
+        close gaps, correctly assembly the two chromosomes and the megaplasmid and 
+        to polish the sequence data.
+        
+        As the number of available reference genomes and automated systems to annotate 
+        genes was very limited by that time, I implemented several tools to find and 
+        annotate genes, starting on the preliminary contigs from raw sequencing. 
+        This work used a central database that was populated running batches of various 
+        tools for sequence motif detection and homology searches (Blast). A web-fronted  
+        was used to present possible annotations with their level of evidence to allow 
+        manual curation and a relative fast, thorough and correct assignment of functions 
+        to genomic sequence. 
+        
+        The final annotated sequence was published in Nature Biotechnology in 2006.
 
-          - Bullet point
-          - Bullet point
+          - Sequencing, assembly, gap-closure, polishing
+          - Annotation, batch jobs, database integration, web-frontend for manual curation
 
     - degree: Diploma in Biology
       university: University of Münster
       time: 1995 - 2001
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        For my 'Diplom' (Masters equivalent), I have worked with bacteria that store 
+        plastic as a source of carbon and energy when growth is limited by a limitation 
+        other than carbon source shortage. The thesis (in German) is entitled: "Synthese 
+        und Einbau von 3-Hydroxy-4-Pentensäure in Polyhydroxyalkanoate in *Burkholderia cepacia*
+        Stamm IPT64" (Diplomarbeit Universität Münster, Fachbereich Biologie, 2001). 
+        This was a wet-lab centered work to elucidate the origin of a special building block 
+        of the polymers found in some species.
 
-          - Bullet point
-          - Bullet point
+          - Feeding experiments
+          - Metabolite measurements (GC, GC/MS, LC, enzyme assays)
 
 experiences:
     - role: Associate Director Bioinformatics
       time: 2015 - Present
       company: QIAGEN, Hilden, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        Current responsibilities include development of data analysis pipelines 
+        and assay design both for internal research groups as well as customer-facing
+        solutions (e.g. QIMERA). 
+        
+        For internal reasearch projects I work closely with scientists and I am 
+        involved in planning experiments to ensure that generated data is suited 
+        to address objectives and allos answering of research questions. 
+        
+        Analysis pipelines for external use enable customers to leverage the full 
+        potential of our products by providing an easy to use solution with meaningful reports. 
+        Our efforts are often needed as a bridging solution for novel applications until 
+        main-stream commvercial software packages (like QIAGEN's CLC Workbenches) have 
+        implemented a dedicated analysis module.
+        
+        Input data mostly consists of NGS raw reads but any type of information can be integrated. 
+      
+        Assay design is done for both enrichment applications (PCR, SPE) 
+        as well as hybridisation probes (FISH). I have established methods and algorithms 
+        to balance sensitivity and specificity considering the genomic background.
+        
+        For customer-facing solutions we run Docker container on Google Compute Engine (GCE), 
+        organize code on GitHub (both public and private) and work with many programming 
+        languages like Perl, R, Python, SQL, Bash and document formats like Markdown, 
+        HTML, CSS, SVG etc.
 
-          - Bullet point
-          - Bullet point
+          - NGS analysis pipelines (QIMERA)
+          - Oligo design (SPE, FISH)
+          - Docker, GCE, Git, Perl, R, Python, SQL
+        
 
     - role: Senior Scientist
       time: 2010 - 2015
       company: QIAGEN, Hilden, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        From the service team I have moved to reasearch and development and also from Sanger to NGS 
+        sequencing. Main tasks were ...
 
-          - Bullet point
-          - Bullet point
+          - CNV calling (quandico)
+          - Pyrosequencing assay design (still used today)
 
     - role: Scientist
       time: 2007 - 2010
       company: QIAGEN, Hilden, Germany
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        My first role at QIAGEN was in the Sequencing Service Department, now named 
+        Enterprise Genomics Services. In addition to the usual laboratory managers' tasks 
+        (sample reception, planning of lab work, Sanger sequencing, reporting) I have 
+        worked on projects with bioinformatics needs, e.g. assembly of BACs. 
+        
+        During that time I have set up a system for verification of a template by comparison 
+        with a known reference sequence. Primers are automatically picked (Primer3) based on 
+        the provided reference and stored in an internal primer database for reuse. Protocols 
+        for automation of the setup (picking done by robots) and sample-sheets reuquired for 
+        sequencing machines are generated automatically. I have developed a set of tools to 
+        generate deviation reports (PDF) based on assembled reads.
+        
+        For a large contract for sequence-based HLA-typing (SBT) many hundreds of samples 
+        I have set up a database (MySQL) with a web frontend (Perl CGI, jQuery) to track samples, 
+        resources, results and select suitable next primers for haplotype resolution. Final 
+        reports for each sample were generated from that database and contained details on staff, 
+        equipment used, dates and all material lot numbers (PDF) in a GMP-like fashion.
 
-          - Bullet point
-          - Bullet point
+          - Verification Pipeline (primer picking, lab automation)
+          - HLA typing system (database with front-end, reporting)
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Project with code on GitHub are listed here.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: quandico
+        link: "#quandico"
+        tagline: "Quantitative analysis of differences in copy numbers using read depth obtained from PCR-enriched samples and controls"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: QIMERA
+        link: "#QIMERA"
+        tagline: "Robust gene fusion detection pipeline"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Important milestone papers are listed.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Robust gene fusion detection in formalin-fixed tissue sample with QIAseq RNAscan Oncology Panel"
+        authors: J Falk, P Sitlani, C Orosco, M Panjikaran, D Weiner, S Tian, R Samara, J DiCarlo, Y Wang, E Lader and **F Reinecke**
+        conference: "AACR Annual Meeting, Chicago, IL (2018)"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "RNA Fusion Detection in Thyroid Nodules With Targeted RNA Sequencing Panels"
+        authors: S Tian, M Baird, **F Reinecke**, J Deng, MN Ranjbar, R Samara, E Lader
+        conference: "Cancer Research 77 (13 Supplement), 5408-5408 (2017)"
+        
+      - title: "Quantitative analysis of differences in copy numbers using read depth obtained from PCR-enriched samples and controls"
+        authors: **F Reinecke**, RV Satya, J DiCarlo
+        conference: "BMC Bioinformatics 16 (1), 17 (2015)"
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Genome sequence of the bioplastic-producing “Knallgas” bacterium *Ralstonia eutropha* H16"
+        authors: A Pohlmann, WF Fricke, **F Reinecke**, B Kusian, H Liesegang, R Cramm, et. al
+        conference: "Nature Biotechnology 24 (10), 1257 (2006)"
 
 skills:
     title: Skills &amp; Proficiency
@@ -183,7 +209,7 @@ skills:
       - name: R
         level: 96%
 
-      - name: HTML5, SVG & CSS
+      - name: HTML, SVG & CSS
         level: 90%
 
       - name: Bash
@@ -193,4 +219,4 @@ skills:
         level: 25%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    The most recent version can be found <a href="https://reineckef.github.com/online-cv">on GitHub</a>.
