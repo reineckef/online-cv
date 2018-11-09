@@ -181,19 +181,19 @@ publications:
 
     papers:
       - title: "Robust gene fusion detection in formalin-fixed tissue sample with QIAseq RNAscan Oncology Panel"
-        authors: J Falk, P Sitlani, C Orosco, M Panjikaran, D Weiner, S Tian, R Samara, J DiCarlo, Y Wang, E Lader and **F Reinecke**
+        authors: J Falk, P Sitlani, C Orosco, M Panjikaran, D Weiner, S Tian, R Samara, J DiCarlo, Y Wang, E Lader and F Reinecke
         conference: "AACR Annual Meeting, Chicago, IL (2018)"
 
       - title: "RNA Fusion Detection in Thyroid Nodules With Targeted RNA Sequencing Panels"
-        authors: S Tian, M Baird, **F Reinecke**, J Deng, MN Ranjbar, R Samara, E Lader
+        authors: S Tian, M Baird, F Reinecke, J Deng, MN Ranjbar, R Samara, E Lader
         conference: "Cancer Research 77 (13 Supplement), 5408-5408 (2017)"
         
       - title: "Quantitative analysis of differences in copy numbers using read depth obtained from PCR-enriched samples and controls"
-        authors: **F Reinecke**, RV Satya, J DiCarlo
+        authors: F Reinecke, RV Satya, J DiCarlo
         conference: "BMC Bioinformatics 16 (1), 17 (2015)"
 
       - title: "Genome sequence of the bioplastic-producing “Knallgas” bacterium *Ralstonia eutropha* H16"
-        authors: A Pohlmann, WF Fricke, **F Reinecke**, B Kusian, H Liesegang, R Cramm, et. al
+        authors: A Pohlmann, WF Fricke, F Reinecke, B Kusian, H Liesegang, R Cramm, et. al
         conference: "Nature Biotechnology 24 (10), 1257 (2006)"
 
 skills:
